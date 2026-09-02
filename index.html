@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>𝗧𝗘𝗟𝗨𝗚𝗨 𝗛𝗨𝗕 | Join Our Channel</title>
+<title>𝗧𝗘𝗟𝗨𝗚𝗨 𝗛𝗨𝗕</title>
 
 <!-- =========================
      META PIXEL
@@ -32,7 +32,6 @@ src="https://www.facebook.com/tr?id=1548833109826313&ev=PageView&noscript=1"
 />
 </noscript>
 
-<!-- FONT -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
@@ -63,9 +62,7 @@ body{
     justify-content:center;
 }
 
-/* =========================
-   BACKGROUND
-   ========================= */
+/* BACKGROUND */
 
 body::before{
     content:"";
@@ -75,13 +72,13 @@ body::before{
 
     background:
         radial-gradient(
-            circle at 50% 20%,
+            circle at 50% 18%,
             rgba(145,0,255,.24),
             transparent 35%
         ),
         radial-gradient(
             circle at 50% 75%,
-            rgba(95,0,255,.12),
+            rgba(95,0,255,.13),
             transparent 42%
         );
 
@@ -117,9 +114,7 @@ body::after{
     z-index:0;
 }
 
-/* =========================
-   CONTAINER
-   ========================= */
+/* CONTAINER */
 
 .container{
     width:100%;
@@ -134,9 +129,7 @@ body::after{
     text-align:center;
 }
 
-/* =========================
-   LOGO
-   ========================= */
+/* LOGO */
 
 .logo-wrap{
     width:145px;
@@ -194,14 +187,14 @@ body::after{
     }
 }
 
-/* =========================
-   VERIFIED
-   ========================= */
+/* VERIFIED */
 
 .verified{
     display:inline-flex;
 
     align-items:center;
+    justify-content:center;
+
     gap:7px;
 
     color:#cba5f7;
@@ -233,12 +226,9 @@ body::after{
         0 0 12px rgba(160,0,255,.65);
 
     font-size:11px;
-    color:#fff;
 }
 
-/* =========================
-   HEADING
-   ========================= */
+/* TITLE */
 
 h1{
     font-size:39px;
@@ -262,6 +252,8 @@ h1{
     -webkit-text-fill-color:transparent;
 }
 
+/* DESCRIPTION */
+
 .subtitle{
     max-width:345px;
 
@@ -273,9 +265,7 @@ h1{
     line-height:1.65;
 }
 
-/* =========================
-   CARD
-   ========================= */
+/* CARD */
 
 .card{
     width:100%;
@@ -299,9 +289,7 @@ h1{
         0 0 35px rgba(110,0,255,.08);
 }
 
-/* =========================
-   JOIN BUTTON
-   ========================= */
+/* JOIN BUTTON */
 
 .join-btn{
     width:100%;
@@ -358,9 +346,7 @@ h1{
     line-height:1;
 }
 
-/* =========================
-   FREE TEXT
-   ========================= */
+/* FREE */
 
 .free{
     margin-top:12px;
@@ -372,13 +358,10 @@ h1{
 
 .free span{
     color:#c17bff;
-
     font-weight:800;
 }
 
-/* =========================
-   LIVE
-   ========================= */
+/* LIVE */
 
 .live-box{
     margin-top:19px;
@@ -421,9 +404,7 @@ h1{
     }
 }
 
-/* =========================
-   30 SECONDS
-   ========================= */
+/* 30 SECONDS */
 
 .timer{
     margin-top:18px;
@@ -443,9 +424,6 @@ h1{
     font-weight:800;
 
     letter-spacing:.5px;
-
-    box-shadow:
-        inset 0 1px rgba(255,255,255,.025);
 }
 
 .timer span{
@@ -455,9 +433,7 @@ h1{
         0 0 15px rgba(175,0,255,.5);
 }
 
-/* =========================
-   FOOTER
-   ========================= */
+/* FOOTER */
 
 .footer{
     margin-top:21px;
@@ -467,9 +443,7 @@ h1{
     font-size:9px;
 }
 
-/* =========================
-   MOBILE
-   ========================= */
+/* MOBILE */
 
 @media(max-width:380px){
 
@@ -499,24 +473,20 @@ h1{
 
 <div class="container">
 
-    <!-- =========================
-         LOGO
-         ========================= -->
+    <!-- LOGO -->
 
     <div class="logo-wrap">
 
         <img
             class="logo"
-            src="YOUR_LOGO_IMAGE_URL"
+            src="logo.png"
             alt="TELUGU HUB Logo"
         >
 
     </div>
 
 
-    <!-- =========================
-         VERIFIED
-         ========================= -->
+    <!-- VERIFIED -->
 
     <div class="verified">
 
@@ -527,9 +497,7 @@ h1{
     </div>
 
 
-    <!-- =========================
-         CHANNEL NAME
-         ========================= -->
+    <!-- CHANNEL NAME -->
 
     <h1>
         𝗧𝗘𝗟𝗨𝗚𝗨 𝗛𝗨𝗕
@@ -542,14 +510,12 @@ h1{
     </p>
 
 
-    <!-- =========================
-         CARD
-         ========================= -->
+    <!-- MAIN CARD -->
 
     <div class="card">
 
 
-        <!-- JOIN OUR CHANNEL -->
+        <!-- JOIN BUTTON -->
 
         <a
             class="join-btn"
@@ -591,7 +557,7 @@ h1{
         </div>
 
 
-        <!-- ONLY 30 SECONDS -->
+        <!-- 30 SECOND DISPLAY -->
 
         <div class="timer">
 
@@ -654,4 +620,4 @@ setInterval(
 </script>
 
 </body>
-</html>
+     </html>
